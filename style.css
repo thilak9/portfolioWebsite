@@ -1,0 +1,35 @@
+body{
+    font-family:monospace
+}
+
+.menuCustomise{
+    color:greenyellow
+}
+
+.blue{
+    color:blue
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 5vh;
+    background-color:aquamarine;
+    color:black;
+    margin: 10px 10px 0 10px;
+    margin-top: 150px;
+
+}
+
+
+nav>li{
+    list-style-type:none;
+    margin:0 2vh;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
